@@ -8,4 +8,5 @@ Scripts to download exome slices from ADSP (Alzheimer's Disease Sequencing Proje
 - Download reference hg38 file from broad-institute 
 - Connect to Filezilla using ec2 token, URL from EC2 instance
 - If htslib has issues:
-  - export LD_LIBRARY_PATH=/home/ec2-user/htslib-1.11/
+  - export LD_LIBRARY_PATH=/home/ec2-user/htslib-1.11
+- ADdownload.sh depends on urlget.py, run ADdownload.sh
